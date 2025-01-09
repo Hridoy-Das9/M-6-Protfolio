@@ -1,0 +1,36 @@
+
+
+.open-sans-nrml {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Nav Style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 020px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.r-style{
+    color: #fd6e0a;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.dark-2{
+    color: #474747;
+}
+nav ul{
+    display: flex;
+}
