@@ -113,6 +113,7 @@ nav ul {
 main {
     max-width: 1100px;
     margin: 0px auto;
+    text-align: center;
 }
 
 /* about-style */
@@ -146,7 +147,7 @@ main {
 .what {
     text-align: center;
     max-width: 1100px;
-    margin: 30px auto;
+    margin: 80px auto;
 }
 
 .what .section-des {
@@ -156,18 +157,42 @@ main {
 
 .skil-continer {
     display: flex;
-    gap: 90px
+    gap: 90px;
+    /* margin-bottom: 40px; */
 }
 
 .skill {
     text-align: left;
     max-width: 160px;
     padding: 20px;
-    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
 
 .skill-des {
     font-size: 14px;
     opacity: 80%;
+}
+/* resume*/
+.fast-smry{
+    margin-bottom: 50px;
+}
+.resume-details {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 90px;
+    /* margin-top: 30px */
+}
+.education, .experience{
+    width: 450px;
+}
+.date, .ex-date{
+    font-size: 12px;
+    font-weight:lighter;
+    opacity: 85%;
+}
+.deg-des, .ex-des{
+    font-size: 11px;
+    opacity: 70%;
 }
