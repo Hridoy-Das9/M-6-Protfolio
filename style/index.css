@@ -5,25 +5,28 @@
     font-variation-settings:
         "wdth" 100;
 }
-.sec-bg{
+
+.sec-bg {
     background-color: #ffede1;
 }
-.section-title{
+
+.section-title {
     font-size: 32px;
     font-weight: bold;
     color: #181818;
 }
-.section-des{
-font-size: 15px;
-font-weight: 400;
-color: #181818;
+
+.section-des {
+    font-size: 15px;
+    font-weight: 400;
+    color: #181818;
 }
 
 /* header */
-.header{
-    background-image: url(../images/developer.png),url(../images/header_bg.png);
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: top left, bottom right;
 }
 
 /* Nav Style */
@@ -70,6 +73,7 @@ nav ul {
     border-radius: 5px;
     border: none;
 }
+
 /* banner */
 .banner-container {
     max-width: 520px;
@@ -85,7 +89,7 @@ nav ul {
 .b-title {
     font-size: 68px;
     font-weight: bold;
-    margin: 0px ;
+    margin: 0px;
 }
 
 .banner {
@@ -94,6 +98,7 @@ nav ul {
     justify-content: space-between;
     margin: 0px 30px 0px 100px;
 }
+
 .btn-primary1 {
     background-color: #f7f4f4;
     font-weight: bold;
@@ -104,30 +109,65 @@ nav ul {
     border: none;
     margin-left: 20px;
 }
-main{
+
+main {
     max-width: 1100px;
     margin: 0px auto;
 }
+
 /* about-style */
-.about{
+.about {
     border-radius: 10px;
     padding: 100px;
     margin-top: 90px;
     text-align: center;
 }
-.about-items{
+
+.about-items {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    line-height:0;
+    line-height: 0;
     margin-top: 40px;
 }
-.item-title{
+
+.item-title {
     font-size: 16px;
     color: #757575;
 }
-.item-des{
+
+.item-des {
     font-size: 17px;
     font-weight: bold;
     color: #474747;
+}
+
+/* what to do */
+.what {
+    text-align: center;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.what .section-des {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.skil-continer {
+    display: flex;
+    gap: 90px
+}
+
+.skill {
+    text-align: left;
+    max-width: 160px;
+    padding: 20px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    border-radius: 5px;
+}
+
+.skill-des {
+    font-size: 14px;
+    opacity: 80%;
 }
