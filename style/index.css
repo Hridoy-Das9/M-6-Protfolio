@@ -197,6 +197,7 @@ main {
     opacity: 70%;
 }
 footer{
+    margin-top: 90px;
     background-color: #ffede1;
     padding: 90px 120px;
     display: flex;
