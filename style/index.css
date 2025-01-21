@@ -236,3 +236,29 @@ footer textarea{
     border-radius: 5px;
 }
 
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .about-items, .resume-details, .skil-continer, footer{
+        flex-direction: column;  
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+    .about{
+        padding: 10px;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .about-items{
+        flex-direction: column;
+    }
+}
