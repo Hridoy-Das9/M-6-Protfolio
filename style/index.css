@@ -173,10 +173,12 @@ main {
     font-size: 14px;
     opacity: 80%;
 }
+
 /* resume*/
-.fast-smry{
+.fast-smry {
     margin-bottom: 50px;
 }
+
 .resume-details {
     display: flex;
     align-items: center;
@@ -184,36 +186,48 @@ main {
     gap: 90px;
     /* margin-top: 30px */
 }
-.education, .experience{
+
+.education,
+.experience {
     width: 450px;
 }
-.date, .ex-date{
+
+.date,
+.ex-date {
     font-size: 12px;
-    font-weight:lighter;
+    font-weight: lighter;
     opacity: 85%;
 }
-.deg-des, .ex-des{
+
+.deg-des,
+.ex-des {
     font-size: 11px;
     opacity: 70%;
 }
-footer{
+
+footer {
     margin-top: 90px;
     background-color: #ffede1;
     padding: 90px 120px;
     display: flex;
     gap: 80px;
 }
-.social{
+
+.social {
     gap: 30px;
 }
-footer p{
+
+footer p {
     font-size: 13px;
     margin-bottom: 30px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
-footer input[type="text"], footer input[type="email"]{
+
+footer input[type="text"],
+footer input[type="email"] {
     width: 100%;
     font-size: 14px;
     background-color: white;
@@ -224,7 +238,8 @@ footer input[type="text"], footer input[type="email"]{
     margin-bottom: 10px;
     border-radius: 5px;
 }
-footer textarea{
+
+footer textarea {
     width: 100%;
     font-size: 14px;
     background-color: white;
@@ -236,29 +251,66 @@ footer textarea{
     border-radius: 5px;
 }
 
-.hide{
+.hide {
     display: none;
 }
+
 @media screen and (max-width:576px) {
-    .about-items, .resume-details, .skil-continer, footer{
-        flex-direction: column;  
+    
+    .header{
+        background: none;
+
     }
-    footer{
-        padding: 20px;
+    nav,
+    nav>ul,
+    .about-items,
+    .resume-details,
+    .skil-continer,
+    footer,
+    .banner {
+        flex-direction: column;
     }
-    .footer-column{
+    nav>ul{
+        gap: 20px;
+    }
+    .skill{
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner {
+        margin: 10px;
+    }
+    .ppic{
         width: 100%;
     }
-    footer input[type="text"], footer input[type="email"], footer textarea{
+    .banner-container {
+        margin-bottom: 100px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
         width: calc(100% - 40px);
     }
-    .about{
+
+    .about {
         padding: 10px;
     }
-    
+
 }
+
 @media screen and (min-width:576px) and (max-width:768px) {
-    .about-items{
+    .about-items {
         flex-direction: column;
     }
 }
